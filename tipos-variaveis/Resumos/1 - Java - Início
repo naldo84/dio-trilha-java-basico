@@ -1,0 +1,23 @@
+link: https://glysns.gitbook.io/java-basico
+
+JAVA
+	É composta por um conjunto bem definido de funcionalidades (features)
+	- Simples: Simples e fácil de entender, pois não há complexidade que existiam nas linguagens anteriores, pois deve funcioinar em dispositivos eletrônicos onde menos memória/recursos estão disponíveis.
+	Orientada a objeto: Linguagem Orientada a Objetos - tudo escrito em classes e objetos.
+	Plataforma independente: Deve funcionar em qualquer plataforma (ambiente de hardware ou software que o programa é executado) - Em java o código-fonte é compilado para bytecode e esse bytecode não está vinculado a nenhuma plataforma.
+	Portátil: Escrever o código uma vez e ser executado em qualquer plataforma.
+	Robusta: capaz de lidar com o encerramento inesperado de um programa.
+		- Uma um gerenciamento de memória forte
+		- Coleta de lixo aumática
+		- Tratamento de exceção e mecanismo de verificação de tipo 
+	Segura: Há diversos recursos de segurança e recursos de criptografia e decriptografia para proteção dos dados contra espionagem e adulteração na internet.
+	Interpretada: Os programas são compilados para gerar o bytecode e a JVM interpreta o bytecode durante a execução.
+	Multi-thread: Processo de várias threads sendo executadas simultaneamente. (Thread - Um subprocesso leve e independente de um programa em execução (um processo, que compartilha recursos)
+	
+
+IDE - Ambiente de desenvolvimento integrado
+	Aceleração da escrita com auto-complete ou IntelliSense
+	Formatação de palavras e blocos de códigos
+	Análise de erro de sintaxe
+	Compilação do programa
+	Depuração (acompanhamento) do programa

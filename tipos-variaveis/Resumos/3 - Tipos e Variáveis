@@ -1,0 +1,19 @@
+Os tipos primitivos não são considerados objetos e representam valores brutos. São armazenados diretamente na pilha de memoŕia.
+	|----------------------------------------------------------------------------|
+	|  tipo  | Memória  |          Valor Mínimo      |       Valor Máximo        |
+	|--------|----------|----------------------------|---------------------------|
+	| byte   | 1 byte   |            -128            |             127           |
+	| short  | 2 byte   |          -32.768           |           32.767          |
+	| int    | 4 byte   |       -2.147.483.648       |       2.147.483.647       |
+	| long   | 8 byte   | -9.223.372.036.854.775.808 | 9.223.372.036.854.775.807 | * precisa terminar com L
+	| float  | 4 byte   |       -3,4028E + 38        |         3,4028E + 38      | * precisa terminar com F
+	| double | 8 byte   |       -1,7976E + 308       |         1,7976E + 308     |
+	| boolean| 1 byte   |           -128             |             127           |
+	| char   | 1 byte   |             0              |           65,535          | (representa caracteres unicode)
+	|----------------------------------------------------------------------------|
+Para representar números, na maioria das vezes utilizaremos o tipo int para números inteiros ou double para números fracionados.
+
+Variável é a identificação de um espação na memória associada a um nome. É composta por: tipo de dado + identificação + valor atribuido - Ex: <tipo> <nomeVariável> <atribuição de valor> (opcional)
+
+Constantes: são valores armanzenados em memória que não podem ser modificados depois de declarados, sendo representados em java pela palavra reservada final, seguida do tipo
+	Por conversão são escritas em CAIXA ALTA.

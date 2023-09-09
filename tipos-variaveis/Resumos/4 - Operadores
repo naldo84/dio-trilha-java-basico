@@ -1,0 +1,34 @@
+OPERADORES: São símbolos especiais que tem um significado próprio para a linguagem e estão associados a determinadas operações.
+	= - operador de atribuição serve para definir um valor inicial ou sobrescrever o seu valor. Ex int idade = 22, double peso = 45.6, String nome = "Erinaldo";
+
+	OPERADORES ARITMÉTICOS - utilizado para realizar operações matemáticas
+		+: double soma = 10.5 + 15.9 // qdo utilizado do tipo texto é realizada a concatenação.
+		-: int subtracao = 87-77
+		*: int multiplicacao = 4 * 6
+		/: double divisao = 31 / 4
+		%: int modulo = 18 % 3
+		double resultado = (10 * 4) + (20 / 4)
+		
+
+	OPERÁRIOS UNÁRIOS: são aplicados com outro operador aritmético. Realizam alguns trabalhos básicos como  incrementar, decrementar, inverter valores numéricos e booleanos.
+		+ - operador unário de valor positivo - nros são positivos sem esse operador explicítamente - Para alterar um nro negativo é necessário multiplicar por -1
+		- - operador unário de valor negativo - nega um número ou expressão aritmética
+		++ - operador unário de incremento de valor - incrementa o valor em 1 unidade
+		-- - operador unário de decremento de valor - decrementa o valor em 1 unidade
+		! - operador unário lógico de negação - nega o valor de uma expressão booleana
+
+	OPERADORES RELACIONAIS: Avalimm a relação entre duas variáveis ou expressões. Sendo mais preciso, define se o operando á esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retrnando um valor booleano como resultado.
+		== - Verifica se há igualdade entre os valores
+		!= - Verifica se é diferente da outra
+		>  - Verifica se uma variável é maior que a outra
+		>= - Verifica se uma variável é maior ou igual que a outra
+		<  - Verifica se uma variável é menor que a outra
+		<= - Verifica se uma variável é menor ou igual que a outra
+		O método equals compara contéudo (objetos)
+
+	OPERADORES LÓGICOS: Representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões.
+		&& Operador Lógico "E"
+		|| Operador lógico "OU"
+
+	OPERADOR TERNÁRIO: Uma forma resumida para definir uma condição e escolher entre dois valores.Deve pensar como um IF escrito num única linha. - Símbolo ? : 
+		Estrutura -> <expressão condicional> ? <condição se verdadeira> : <condição se false>

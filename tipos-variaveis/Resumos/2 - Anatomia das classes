@@ -1,0 +1,44 @@
+JAVA SINTAXE
+	Anatomia das classes 1:
+		A codificação de um programa é feito através da composição de palavras pré-definidas pele linguagem com as expressões que utilizamos para determinar o nome dos nossos arquivos, classes, atributos e métodos.
+		É comum mesclr expressões do idioma americano com o nosso. Há projetos que a recomendação é o uso da língua inglesa.
+		A classe deve ser compatível com o nome do arquivo e dentro da classe (bloco) pode ter várias estruturas de composição (códigos). Normalmente as classes iniciam com public class nome-da-classe {}
+		
+		Classe inicia com letra maíscula e as primeiras letras tb.
+		Toda classe deve estar no diretório src
+		Se for uma classe executável é necessário ter o método main
+			public stativ void main (String [] args){}
+	
+	Anatomia das classes 2:
+		Padrão de Nomenclatura:
+			arquivo .java -> Deve começar com letra maíscula, se composta tb deve ser maíscula; Ex: Calculadara.java, CalculadoraCientifica.java
+				A classe deve ter o mesmo nome do arquivo.
+			Variável - Padrão camelcase - deve ser escrita com letra minúscula, se composta a segunda palavra deve ser maíscul; Ex: ano, anoFabricacao
+			Constante - utiliza a palavra final é toda maiúscula e o valor não é alterado ;-> Ex: final String BR = "Brasil" ESTADOS_BRASILEIROS, ANO_2000, PI
+			var e const:
+				Deve conter apenas letras, underline (_), $ ou nros de 0 a 9;
+				Deve iniciar por uma letra (preferencialmente), _ ou $, nunca número;
+				Não pode ter espaços;
+				Não pode usar palavras reservadas da linguagem;
+				Deve ser único dentro de um escopo;
+	Anatomia das classe 3:
+		DECLARANDO VARIÁVEIS E MÉTODOS
+			variável -> tipo nomeDaVariavel = atribuição (opcional em algunns casos) - Ex: int anoFabricação = 2020, String nome = "Erinaldo";
+			métodos -> tipoRetorno nomeDoMetodo (no infinitivo) Parametros - Ex: int somar (int num1, int num2), String formatarCep(long cep)
+	Anatomia das classes 4:
+		IDENTAÇÃO: forma de tabular (escrever de forma hierárquica) o código para que seja possível a compreensão a nível de escopo (facilita a visualização).
+	
+	Anatomia das classes 5:
+		Pacotes (package): subpastas para organizar a estrutura do projeto
+			Padrao: .com (comercial), .org(organizacional) e opensource - Exs:
+				com.bradesco.notificacao
+				org.bradesco.modelo
+	Anatomia das Classes 6:
+		Java Beans: Uma iniciativa conceitual (convenção) para estruturação de escrita, de como expressamos variáveis, métodos, classes e pacotes.
+			variáveis:
+				Deve ser clara, sem abreviações ou definição sem sentido;
+				Deve ser escrita sempre no singular, exceto qdo for um array ou coleção;
+				Definir um único idioma;
+			Métodos:
+				Deve ser nomeado como verbos, através de uma mistura de letras minúsculas e maiúsculas - primeira minúsucas e demais maiúsculas;
+				Não deve ser nome dúvio calcularImprimir();
