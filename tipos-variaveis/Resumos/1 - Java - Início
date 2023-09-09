@@ -1,6 +1,6 @@
 link: https://glysns.gitbook.io/java-basico
 
-JAVA
+## JAVA
 	É composta por um conjunto bem definido de funcionalidades (features)
 	- Simples: Simples e fácil de entender, pois não há complexidade que existiam nas linguagens anteriores, pois deve funcioinar em dispositivos eletrônicos onde menos memória/recursos estão disponíveis.
 	Orientada a objeto: Linguagem Orientada a Objetos - tudo escrito em classes e objetos.
