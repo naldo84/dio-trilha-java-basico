@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Teste",
+            "request": "launch",
+            "mainClass": "Teste",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
