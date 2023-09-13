@@ -1,4 +1,4 @@
-public class TiposVariaveis {
+public class Operadores {
     public static void main(String[] args) throws Exception {
         double salarioMinio = 2500.33;
 
