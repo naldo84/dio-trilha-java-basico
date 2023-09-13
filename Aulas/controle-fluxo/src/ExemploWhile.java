@@ -28,6 +28,8 @@ public class ExemploWhile {
             ++contDoces;  
         }
 
+        scanner.close();
+
         System.out.println("\n-------------------------------------------------------------");
         System.out.printf("\nValor dos doces: R$ %.2f", valorTotalDoces);
         System.out.printf("\nTroco da Mesada: R$ %.2f", mesada);

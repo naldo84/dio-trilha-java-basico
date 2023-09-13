@@ -15,6 +15,8 @@ public class SistemaMedida {
             default : System.out.println("Medida Indefinida");
         }
 
+        scan.close();
+
     }
     
 }
