@@ -20,7 +20,7 @@
             System.out.println(alunos)
         }
 ## WHILE (enquanto)
-    - O bloco de código será executado, enquanto uma condição for válida. O while testa a condição antes de executar o código, logo, caso a condição seja inválida no primeiro teste, sequer o bloco será executado.
+    - O bloco de código será executado, enquanto uma condição for válida. O while testa a condição antes de executar o código, logo, caso a condiSção seja inválida no primeiro teste, sequer o bloco será executado.
         Estrutura: while (expressão booleana){
                         //comando a ser executado até a expressão tornar-se falsa
                     };
