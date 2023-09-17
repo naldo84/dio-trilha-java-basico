@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProcessoSeletivo4",
+            "request": "launch",
+            "mainClass": "candidatura.ProcessoSeletivo4",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
+            "name": "ProcessoSeletivo3",
+            "request": "launch",
+            "mainClass": "candidatura.ProcessoSeletivo3",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
+            "name": "testes",
+            "request": "launch",
+            "mainClass": "candidatura.testes",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
+            "name": "ProcessoSeletivo2",
+            "request": "launch",
+            "mainClass": "candidatura.ProcessoSeletivo2",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
+            "name": "ProcessoSeletivo",
+            "request": "launch",
+            "mainClass": "candidatura.ProcessoSeletivo",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
             "name": "FormatadorCepExemplo",
             "request": "launch",
             "mainClass": "Exceções.FormatadorCepExemplo",
