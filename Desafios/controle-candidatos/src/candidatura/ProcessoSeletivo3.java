@@ -24,6 +24,11 @@ public class ProcessoSeletivo3 {
             
         }
 
+        for (String ativo : candidatos) {
+            System.out.println(ativo);
+            
+        }
+
     }
 
     static void selecionarCandidatos(){

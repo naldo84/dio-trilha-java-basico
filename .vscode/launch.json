@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Escola",
+            "request": "launch",
+            "mainClass": "Aulas.escola.Escola",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
+            "name": "Estabelecimento",
+            "request": "launch",
+            "mainClass": "Aulas.lanchonete.Estabelecimento",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
+            "name": "Salario",
+            "request": "launch",
+            "mainClass": "Desafios.pblJava.Salario",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
             "name": "ProcessoSeletivo4",
             "request": "launch",
             "mainClass": "candidatura.ProcessoSeletivo4",
