@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SistemIbge",
+            "request": "launch",
+            "mainClass": "Aulas.POO.Enums.SistemIbge",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
+            "name": "SistemaCadastro",
+            "request": "launch",
+            "mainClass": "Aulas.POO.Construtores.SistemaCadastro",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
             "name": "Escola",
             "request": "launch",
             "mainClass": "Aulas.escola.Escola",

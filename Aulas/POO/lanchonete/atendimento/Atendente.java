@@ -1,4 +1,4 @@
-package Aulas.lanchonete.atendimento;
+package Aulas.POO.lanchonete.atendimento;
 
 public class Atendente {
 

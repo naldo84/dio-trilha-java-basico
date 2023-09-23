@@ -1,4 +1,4 @@
-package Aulas.lanchonete.area.cliente;
+package Aulas.POO.lanchonete.area.cliente;
 
 public class Cliente {
     public void escolherLanche() {

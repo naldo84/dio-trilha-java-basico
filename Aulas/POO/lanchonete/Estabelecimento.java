@@ -1,8 +1,8 @@
-package Aulas.lanchonete;
+package Aulas.POO.lanchonete;
 
-import Aulas.lanchonete.area.cliente.Cliente;
-import Aulas.lanchonete.atendimento.Atendente;
-import Aulas.lanchonete.atendimento.cozinha.Cozinheiro;
+import Aulas.POO.lanchonete.area.cliente.Cliente;
+import Aulas.POO.lanchonete.atendimento.Atendente;
+import Aulas.POO.lanchonete.atendimento.cozinha.Cozinheiro;
 
 
 public class Estabelecimento {

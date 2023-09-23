@@ -43,3 +43,27 @@
         - GETTER: Retorna o valor do atributo específicado. Ex: public String getNome() {}
         - SETTER: Define outro valor para o atributo especificado: Ex public void setNome(String newNome)
     Os atributoos precisam ter o modificador de acesso private. Dessa forma é necessário usar os métodos getter e setter.
+
+# CONSTRUTORES 
+    - É um método especial utilizado para para inicializar os atributos de um objeto e realizar tarefas de configuração necessárias antes que o objeto seja usado.
+
+# ENUM (abreviação de enumeration)
+    - Um tipo especial de classe, onde os objetos são previamente criados, imutáveis e disponíveis por toda a aplicação. 
+        É usado qdo o modelo de negócio contém objetos de mesmo contexto que já existem de pré estabelecida com a certeza de não haver tanta alteraçaõ de valores. Os elementos são chamados de constantes
+            EX: Dias da semana, os meses do anos, os tipos de cartão de crédito, entre outros.
+
+# UML (UNIFIED MODELING LANGUAGE)
+    - Uma notação que possibilita a representação gráfica de um projeto.
+        Conceitos necessário para compreensão inicial:
+            - Diagramas
+            - Elementos
+            - Relacionamentos
+        
+        As notações UML são divididas em duas categorias de diagrams, a estrutural e comportamental. Exs:
+            - DIAGRAMAS ESTRUTURAIS
+                - Diagrama de Classe: É considerado o mais importante, sendo utilizado para fazer a representação de estrutura de classes do negócio, interfaces e outros componentes do sistema. Constituida por: 
+                    - Identificação: Nome e/ou finalidade da classe
+                    - Atributos: Propriedade e/ou características
+                    - Operações: Ações e/ou métodos
+                    
+                - Diagrama de Objetos: Representa os objetos existentes em um determinado instante ou fato na aplicação. Assim conseguimos ter uma perspectiva do estado de nossos objetos mediante a interação dos usuários no sistema.
