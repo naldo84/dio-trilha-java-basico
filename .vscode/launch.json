@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ComputadorNaldo",
+            "request": "launch",
+            "mainClass": "Aulas.POO.PilaresPOO.ExemploMensagemInstantanea.ComputadorNaldo",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
+            "name": "ComputadorNaldo",
+            "request": "launch",
+            "mainClass": "Aulas.POO.PilaresPOO.ExemploMSN.ComputadorNaldo",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
+            "name": "Autodromo",
+            "request": "launch",
+            "mainClass": "Aulas.POO.PilaresPOO.Autodromo",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
             "name": "SistemIbge",
             "request": "launch",
             "mainClass": "Aulas.POO.Enums.SistemIbge",
