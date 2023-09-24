@@ -1,7 +1,5 @@
 package Aulas.POO.lanchonete.atendimento.cozinha;
 
-import Aulas.POO.lanchonete.atendimento.Atendente;
-
 public class Cozinheiro {
     // pode ser default
     public void adicionarLancheNoBalcao() {

@@ -17,6 +17,7 @@ public class ComputadorNaldo {
         Telegram telegram = new Telegram(EnumTipoServico.TELEGRAM);
         telegram.enviarMensagem();
         telegram.receberMensagem();
+        criarLinha();
         
         
     }
