@@ -1,10 +1,9 @@
-package Aulas.POO.PilaresPOO.ExemploMensagemInstantanea;
+package Aulas.POO.PilaresPOO.ExemploMensagemInstantanea.aplicativos;
 
-public class MsnMessenger extends ServicoMensagem{
+public class Telegram extends ServicoMensagem{
 
-    public MsnMessenger(EnumTipoServico tipoServico){
+    public Telegram (EnumTipoServico tipoServico){
         this.tipoServico = tipoServico;
-
     }
 
     @Override
@@ -14,8 +13,8 @@ public class MsnMessenger extends ServicoMensagem{
 
     @Override
     public void receberMensagem() {
+        validarConexaoInternet();
         System.out.println("Recebendo mensagem pelo " + tipoServico);
-    
     }
 
 }

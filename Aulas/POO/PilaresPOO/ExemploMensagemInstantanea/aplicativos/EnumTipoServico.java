@@ -1,4 +1,4 @@
-package Aulas.POO.PilaresPOO.ExemploMensagemInstantanea;
+package Aulas.POO.PilaresPOO.ExemploMensagemInstantanea.aplicativos;
 
 public enum EnumTipoServico {
     MESSENGER, 

@@ -1,13 +1,14 @@
-package Aulas.POO.PilaresPOO.ExemploMensagemInstantanea;
+package Aulas.POO.PilaresPOO.ExemploMensagemInstantanea.aplicativos;
 
-public class Telegram extends ServicoMensagem{
+public class FacebookMessenger extends ServicoMensagem{
 
-    public Telegram (EnumTipoServico tipoServico){
+    public FacebookMessenger (EnumTipoServico tipoServico){
         this.tipoServico = tipoServico;
     }
 
     @Override
     public void enviarMensagem() {
+        validarConexaoInternet();
         System.out.println("Enviando mensagem pelo " + tipoServico);
     }
 
