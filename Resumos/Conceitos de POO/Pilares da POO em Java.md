@@ -4,8 +4,8 @@
             Ex: Ao ligar um veículo, visualizamos apenas o início da ignição e a "magia" acontece.
     
     - HERANÇA
-        - Características e comportamentos comuns podem ser elevados e compartilhados através de uma hierarquia de objetos.
-            Ex: Um carro e uma motocicleta possuem propriedades comuns (placa, cor, método acelerar, etc). Dessa forma podemos criar uma classe Veiculo que possa ser herdada por carro e  motocicleta.
+        - Características e comportamentos comuns podem ser elevados e compartilhados através de uma hierarquia de objetos. Java não permite herança múltipla.
+            Ex: Um carro e uma motocicleta possuem propriedades comuns (placa, cor, método acelerar, etc). Dessa forma podemos criar uma classe Veiculo que possa ser herdada por carro e  motocicleta. 
 
     - ABSTRAÇÃO
         - É a indisponibilidade para determinar a lógica de um ou vários comportamentos em um objeto.
@@ -15,4 +15,5 @@
         - São as inúmeras maneiras de realizar um mesma ação.
 
 
-    Ver o exemplo da herança.
+INTTERFACE
+    - É um nível mais avançado de abstração. A interface está relacionada a contratos que precisam ser definidos.
