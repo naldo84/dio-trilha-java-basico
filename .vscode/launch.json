@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Generics",
+            "request": "launch",
+            "mainClass": "Aulas.POO.Collections.Generics.Generics",
+            "projectName": "dio-trilha-java-basico_b0e00abc"
+        },
+        {
+            "type": "java",
             "name": "ComputadorNaldo",
             "request": "launch",
             "mainClass": "Aulas.POO.PilaresPOO.ExemploMensagemInstantanea.ComputadorNaldo",
