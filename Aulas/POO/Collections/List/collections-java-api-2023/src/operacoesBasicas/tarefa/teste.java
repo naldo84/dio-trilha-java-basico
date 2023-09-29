@@ -1,4 +1,4 @@
-package operacoesBasicas;
+package operacoesBasicas.tarefa;
 
 public class teste {
     public static void main(String[] args) {
