@@ -1,4 +1,4 @@
-package operacoesBasicas.somaDeNumeros;
+package list.pesquisa.somaDeNumeros;
 
 import java.util.ArrayList;
 import java.util.List;
